@@ -9,11 +9,11 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: 'AI Chat System',
-    desc: 'Hệ thống chat AI với RAG (Retrieval Augmented Generation). Hỗ trợ nhiều LLM providers, session management và PostgreSQL persistence. Real-time streaming với SSE.',
-    tags: ['Python', 'FastAPI', 'LangChain', 'PostgreSQL', 'Docker'],
-    github: 'https://github.com/tieuphungiter/ai-chat-system',
-    gradient: 'from-cyan-500 to-blue-600',
+    name: "Lucky Star Chatbot (RAG + Mini ERP)",
+    desc: "A demo RAG (Retrieval Augmented Generation) chatbot integrated with a small ERP simulation: synthetic data generation, inventory forecasting, and internal query answering via retrieval. Implemented in Python with FastAPI; includes SQLite3 and Docker setup for easy deployment.",
+    tags: ["Python", "FastAPI", "RAG", "Docker", "Jupyter"],
+    github: "https://github.com/tieuphungiter/Demo_chatbot",
+    gradient: "from-cyan-500 to-blue-600",
   },
   {
     name: 'MLOps Pipeline',
