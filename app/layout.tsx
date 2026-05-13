@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tiêu Phụng - Software Engineer",
-  description: "Portfolio của Tiêu Phụng - Software Engineer chuyên về Backend, AI và Web Development.",
+  title: "Tieu Phung - DevOps → AI Engineer",
+  description: "Portfolio of Tieu Phung — 4+ years in DevOps, now building AI systems. Specializing in MLOps, CVs, LLMs, and agentic workflows on cloud infrastructure.",
 };
 
 export default function RootLayout({

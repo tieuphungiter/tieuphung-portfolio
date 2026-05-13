@@ -14,7 +14,7 @@ export default function Hero() {
             Open to opportunities
           </div>
           <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-zinc-700 shadow-lg shrink-0">
-            <Image src="/images/profile.jpg" alt="Tiêu Phụng" fill className="object-cover" priority />
+            <Image src="/images/profile.jpg" alt="Tiểu Phụng" fill sizes="(max-width: 1024px) 100vw, 340px" className="object-cover" priority />
           </div>
         </div>
 
@@ -22,8 +22,8 @@ export default function Hero() {
         <div>
           <p className="text-zinc-500 font-mono text-xs mb-1">Hi, I&apos;m</p>
           <h1 className="text-3xl font-bold tracking-tight leading-tight">
-            <span className="text-white">Tiêu </span>
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-violet-400">Phụng</span>
+            <span className="text-white">Tieu </span>
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-violet-400">Phung</span>
           </h1>
           <p className="mt-1.5 text-sm text-zinc-400 font-mono cursor-blink">&gt; Software Engineer</p>
         </div>
@@ -56,7 +56,7 @@ export default function Hero() {
         {/* Social links */}
         <div className="flex items-center gap-2 mt-auto pt-2">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/tieuphungiter"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-8 h-8 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-400 hover:text-zinc-100 transition-all"
