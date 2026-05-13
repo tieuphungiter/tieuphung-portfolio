@@ -56,7 +56,7 @@ export default function Hero() {
   // Handler to force download the resume (works even if browser would otherwise open PDF)
   const handleDownloadResume = async (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()
-    const url = '/CV_DevOps_Nguyen_Tieu_Phung.pdf' // adjust path if your file is located elsewhere
+    const url = '/tieuphung-portfolio/public/CV_DevOps_Nguyen_Tieu_Phung.pdf' // adjust path if your file is located elsewhere
     try {
       const res = await fetch(url)
       if (!res.ok) throw new Error('Network response was not ok')
@@ -89,7 +89,7 @@ export default function Hero() {
             Open to opportunities
           </div>
           <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-zinc-700 shadow-lg shrink-0">
-            <Image src="/images/profile.png" alt="Tieu_Phung" fill sizes="(max-width: 1024px) 100vw, 340px" className="object-cover" priority />
+            <Image src="tieuphung-portfolio/images/profile.png" alt="Tieu_Phung" fill sizes="(max-width: 1024px) 100vw, 340px" className="object-cover" priority />
           </div>
         </div>
 
@@ -158,7 +158,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/CV_DevOps_Nguyen_Tieu_Phung.pdf"
+            href="tieuphung-portfolio/public/CV_DevOps_Nguyen_Tieu_Phung.pdf"
             onClick={handleDownloadResume}
             className="ml-auto text-xs px-3 py-1.5 rounded-lg border border-cyan-500/40 text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-400 transition-all font-mono"
             aria-label="Download resume"
