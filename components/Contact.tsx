@@ -10,7 +10,7 @@ export default function Contact() {
       </div>
 
       {/* Center: built with */}
-      <p className="text-xs text-zinc-600 font-mono">Built with ♥ by Tiêu Phụng · 2026</p>
+      <p className="text-xs text-zinc-600 font-mono">Built with ♥ by Tieu Phung · 2026</p>
 
       {/* Right: contact links */}
       <div className="flex items-center gap-2">
@@ -24,7 +24,7 @@ export default function Contact() {
           Email
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://linkedin.com/in/phung-nguyen82"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-white transition-all font-mono"

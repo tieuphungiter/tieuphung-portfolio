@@ -47,7 +47,7 @@ export default function Projects() {
 
       {/* GitHub CTA */}
       <a
-        href="https://github.com/yourusername"
+        href="https://github.com/tieuphungiter"
         target="_blank"
         rel="noopener noreferrer"
         className="self-end text-xs text-zinc-500 hover:text-zinc-300 font-mono transition-colors"

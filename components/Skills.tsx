@@ -4,21 +4,21 @@ const skillCategories = [
     icon: '🤖',
     color: 'from-violet-500 to-purple-500' as const,
     skills: [
-      { name: 'LLMs', level: 90 },
-      { name: 'RAG', level: 88 },
-      { name: 'LangChain', level: 85 },
-      { name: 'LangGraph', level: 82 },
+      { name: 'Federated Learning', level: 90 }, // Chuyên môn nghiên cứu chính
+      { name: 'Computer Vision\nImage Processing', level: 85 }, // Phân loại bệnh trên lúa & Xử lý ảnh
+      { name: 'LLMs & RAG', level: 80 }, // Tích hợp LLM vào sản phẩm, xây dựng RAG systems
+      { name: 'Deep Learning', level: 80 }, // Mạng nơ-ron sâu, CNN, RNN, Transformers, v.v.
     ],
   },
-  {
-    name: 'Backend',
-    icon: '⚡',
-    color: 'from-cyan-500 to-blue-500' as const,
+{
+    name: 'Infrastructure & OS',
+    icon: '💻',
+    color: 'from-gray-600 to-slate-800' as const,
     skills: [
-      { name: 'Python', level: 92 },
-      { name: 'FastAPI', level: 88 },
-      { name: 'Celery', level: 78 },
-      { name: 'RabbitMQ', level: 75 },
+      { name: 'Linux', level: 90 }, 
+      { name: 'Windows Server', level: 80 },
+      { name: 'Scripting (Python/Bash/Shell/Groovy)', level: 85 },
+      { name: 'Virtualization (VMware/Hyper-V)', level: 82 },
     ],
   },
   {
@@ -26,20 +26,20 @@ const skillCategories = [
     icon: '🗄️',
     color: 'from-emerald-500 to-teal-500' as const,
     skills: [
-      { name: 'PostgreSQL', level: 82 },
+      { name: 'MSSQL', level: 85 },
       { name: 'MongoDB', level: 80 },
-      { name: 'Neo4J', level: 72 },
+      { name: 'PostgreSQL', level: 70 },
     ],
   },
   {
-    name: 'MLOps',
+    name: 'DevOps',
     icon: '☁️',
     color: 'from-orange-500 to-red-500' as const,
     skills: [
-      { name: 'Docker', level: 85 },
-      { name: 'GCP', level: 78 },
-      { name: 'AWS', level: 72 },
-      { name: 'Kubernetes', level: 70 },
+      { name: 'AWS Cloud', level: 83 },
+      { name: 'Kubernetes & Docker', level: 80 },
+      { name: 'Observability', level: 78 },
+      { name: 'CI/CD Pipelines', level: 75 },
     ],
   },
 ]

@@ -9,12 +9,12 @@ interface Message {
 
 // Static knowledge base — no API needed
 const KB = {
-  skills: `I'm skilled in:\n• **AI/ML**: LLMs, RAG, LangChain, LangGraph (90%+)\n• **Backend**: Python, FastAPI, Node.js, TypeScript\n• **Database**: PostgreSQL, MongoDB, Neo4J, Redis\n• **DevOps**: Docker, GCP, AWS, Kubernetes`,
-  projects: `My notable projects:\n1. **AI Chat System** — RAG-powered chat with multi-LLM support, SSE streaming\n2. **MLOps Pipeline** — Full lifecycle on GCP with Kubernetes & Terraform\n3. **News Processing Service** — Event-driven with RabbitMQ + Celery\n4. **E-Commerce Platform** — Microservices with Next.js & Node.js`,
-  experience: `Work experience:\n• **Software Engineer** at Công ty ABC (Jan 2025 – Present)\n• **Backend Developer** at Startup XYZ (Jun 2023 – Dec 2024)\n• **Software Engineer Intern** at Tech Company DEF (Jan – Jun 2023)`,
-  contact: `You can reach me at:\n• 📧 **Email**: tieuphungiter@gmail.com\n• 💼 **LinkedIn**: linkedin.com/in/yourusername\n• 🐙 **GitHub**: github.com/yourusername\n\nI'm currently **open to opportunities**!`,
-  about: `I'm **Tieu Phung**, a Software Engineer based in Ho Chi Minh City, Vietnam.\n\nI build high-performance web apps & backend systems, with a passion for AI, microservices and cloud-native solutions. Currently open to new opportunities!`,
-  hire: `🎉 Great choice! I'm currently open to opportunities.\n\nFeel free to reach out:\n• 📧 tieuphungiter@gmail.com\n• 💼 LinkedIn: linkedin.com/in/yourusername\n\nLet's build something amazing together!`,
+  skills: `I specialize in:\n• **AI & Research**: Federated Learning, LLMs, RAG, Computer Vision (OpenCV/Neural Networks)\n• **DevOps/MLOps**: AWS, Docker, Kubernetes, Jenkins (Groovy), CI/CD Automation\n• **Backend**: Python (FastAPI/Flask), Distributed Systems\n• **Observability**: Prometheus, Grafana, SkyWalking, Glowroot\n• **System**: Linux/Windows Server Administration, Shell Scripting`,
+  projects: `Notable projects & Research:\n1. **Federated Learning Framework** — Developing FL Framework for non-IID data distributions (Q1 Journal Research)\n2. **Rice Disease Classification** — Deep Learning models for agricultural image processing\n3. **Automated CI/CD for BM Tests** — Jenkins-based automation for high-availability infrastructure at DXC\n4. **AI-Integrated ERP** — Researching chatbot & data pipeline integration for manufacturing`,
+  experience: `Professional Experience:\n• **DevOps Engineer** at **DXC Technology** (Dec 2021 – Present)\n• **Python Instructor** at **ICANTECH** (May 2022 – May 2025)\n• **Software Engineer Intern** at **Turbo Technology** (May – Nov 2021)`,
+  contact: `Let's connect:\n•📞 **Zalo/Phone**: 0981172400\n•📧 **Email**: tieuphungiter@gmail.com\n• 💼 **LinkedIn**: linkedin.com/in/phung-nguyen82\n• 🐙 **GitHub**: github.com/phung-nguyen82\n\nI'm currently **open to new challenges** in AI Infrastructure & MLOps!`,
+  about: `I am **Tieu Phung**, a DevOps Engineer & Computer Vision Researcher based in Ho Chi Minh City.\n\nWith 4+ years in DevOps Engineer and a Master’s focus on **Federated Learning**, I bridge the gap between robust DevOps practices and cutting-edge AI research. I'm passionate about building scalable AI systems and high-availability environments.`,
+  hire: `🎉 I'm currently looking for roles as an **AI Specialist**, **MLOps Engineer**, or **Senior DevOps Engineer**.\n\nReach out to discuss how I can help your team:\n• 📞 **Zalo/Phone**: 0981172400\n• 📧 **Email**: tieuphungiter@gmail.com\n• 💼 **LinkedIn**: linkedin.com/in/phung-nguyen82\n\nLet's build the future of AI Infrastructure together!`,
 }
 
 function getReply(input: string): string {
