@@ -19,6 +19,15 @@ export const experiences: Experience[] = [
     tags: ['AWS','Python', 'Groovy', 'Linux', 'Docker', "Jenkins", "Git"],
   },
   {
+  role: 'Master of CS Candidate',
+  company: 'IUH',
+  type: 'Full-time',
+  period: 'August 2023 - Present',
+  location: 'Ho Chi Minh City, Vietnam',
+  description: 'Focusing on Advanced Computer Science topics with a specialization in Federated Learning, MLOps, and AI Infrastructure.',
+  tags: ['Federated Learning', 'Computer Vision', 'Machine Learning', 'Research', 'Deep Learning'],
+   },
+  {
     role: 'Python Programming Instructor',
     company: 'ICANTECH',
     type: 'Part-time',
@@ -28,7 +37,7 @@ export const experiences: Experience[] = [
     tags: ['Python', 'Pandas', 'Matplotlib', 'Tkinter', 'Streamlit'],
   },
   {
-    role: 'Software Engineer Intern',
+    role: 'AI Engineer Intern',
     company: 'Turbo Technology Solution JSC',
     type: 'Intern',
     period: 'May 2021 - Nov 2021',

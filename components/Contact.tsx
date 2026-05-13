@@ -15,7 +15,7 @@ export default function Contact() {
       {/* Right: contact links */}
       <div className="flex items-center gap-2">
         <a
-          href="mailto:your@email.com"
+          href="mailto:tieuphungiter@gmail.com"
           className="flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-white transition-all font-mono"
         >
           <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
