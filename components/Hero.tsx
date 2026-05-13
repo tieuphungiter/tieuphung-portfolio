@@ -56,7 +56,7 @@ export default function Hero() {
   // Handler to force download the resume (works even if browser would otherwise open PDF)
   const handleDownloadResume = async (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()
-    const url = 'https://github.com/tieuphungiter/tieuphung-portfolio/blob/main/public/CV_DevOps_Nguyen_Tieu_Phung.pdff' // adjust path if your file is located elsewhere
+    const url = 'https://github.com/tieuphungiter/tieuphung-portfolio/blob/main/public/CV_DevOps_Nguyen_Tieu_Phung.pdf' // adjust path if your file is located elsewhere
     try {
       const res = await fetch(url)
       if (!res.ok) throw new Error('Network response was not ok')
