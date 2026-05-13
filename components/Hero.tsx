@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { useEffect, useState } from "react"
 
 const roles = [
-  "Senior DevOps Engineer",
+  "DevOps Engineer",
   "MLOps Engineer",
   "AI Engineer",
   "Software Engineer",
