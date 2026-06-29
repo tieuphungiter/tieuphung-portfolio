@@ -24,10 +24,10 @@ export const projects: Project[] = [
 },
 
 {
-  name: "News Processing Service",
-  desc: "Distributed service for processing and analyzing news articles using LLMs. Event-driven architecture with RabbitMQ and Celery for asynchronous task processing.",
-  tags: ["Python", "RabbitMQ", "Celery", "OpenAI", "FastAPI"],
-  github: "https://github.com/tieuphungiter/news-processing",
+  name: "Monitoring-Stack Prometheus-Grafana",
+  desc: "This repo explains deploying and operating a Prometheus-Grafana monitoring stack for metric collection, visualization, and automated email alerts.",
+  tags: ["Prometheus", "Grafana", "Monitoring", "Alerting"],
+  github: "https://github.com/tieuphungiter/Monitoring-Stack---Prometheus-Grafana",
   gradient: "from-emerald-500 to-teal-600",
 },
 {
