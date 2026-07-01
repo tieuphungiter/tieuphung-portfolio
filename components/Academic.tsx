@@ -11,7 +11,8 @@ export default function Academic() {
     [activeTab],
   )
 
-  const hasOverflowItems = activeItems.length > 3
+  const defaultVisibleItems = activeTab === 'certifications' ? 6 : 3
+  const hasOverflowItems = activeItems.length > defaultVisibleItems
 
   return (
     <div className="bg-[#111111] border border-zinc-800 rounded-2xl p-5 flex flex-col gap-4">
@@ -47,7 +48,11 @@ export default function Academic() {
 
       <div
         className={`rounded-xl border border-zinc-800/70 bg-zinc-900/40 p-3 ${
-          hasOverflowItems ? 'max-h-36 overflow-y-auto pr-2' : 'overflow-hidden'
+          hasOverflowItems
+            ? activeTab === 'certifications'
+              ? 'max-h-72 overflow-y-auto pr-2'
+              : 'max-h-36 overflow-y-auto pr-2'
+            : 'overflow-hidden'
         }`}
       >
         <ul className="space-y-2">
