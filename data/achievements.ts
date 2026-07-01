@@ -44,8 +44,8 @@ export const certifications: AchievementItem[] = [
     href: 'https://www.udemy.com/certificate/UC-547ac08d-b139-48ce-8071-60d3b7e3c36c/',
   },
   {
-    title: 'Deep Learning: Convolutional Neural Networks in Python (2023)',
+    title: 'Convolutional Neural Networks with TensorFlow in Python (2023)',
     subtitle: 'Udemy',
-    href: 'https://www.udemy.com/certificate/UC-f6932b8e-5283-4de2-a847-c07f4a7705d0/',
+    href: 'https://www.udemy.com/certificate/UC-32ae8719-caf8-4b3d-a199-f52f3b9eb118/',
   },
 ]
