@@ -31,4 +31,13 @@ export const certifications: AchievementItem[] = [
     subtitle: 'Udemy',
     href: 'https://ude.my/UC-9b723d2d-65f2-4b51-9178-d395096b1c06',
   },
+    {
+    title: 'AWS Certified Solutions Architect - Associate (2024)',
+    subtitle: 'AWS',
+  },
+  {
+    title: 'Windows Server 2019 Administration (2023)',
+    subtitle: 'Udemy',
+    href: 'https://ude.my/UC-9b723d2d-65f2-4b51-9178-d395096b1c06',
+  },
 ]

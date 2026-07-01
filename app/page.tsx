@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import Experience from '@/components/Experience'
+import Academic from '@/components/Academic'
 import Contact from '@/components/Contact'
 import ChatBox from '@/components/ChatBox'
 
@@ -18,11 +19,12 @@ export default function Home() {
           <Projects />
         </div>
 
-        {/* Row 2: Skills + Terminal/Chat + Experience */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr_1fr] gap-3 mb-3">
+        {/* Row 2: Skills + Terminal/Chat + Experience + Academic */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-3 mb-3">
           <Skills />
           <ChatBox />
           <Experience />
+          <Academic />
         </div>
 
         {/* Footer bar */}
