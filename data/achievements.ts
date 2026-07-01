@@ -16,12 +16,12 @@ export const certifications: AchievementItem[] = [
   {
     title: 'Spark and Python for Big Data with PySpark (2026)',
     subtitle: 'Udemy',
-    href: 'ude.my/UC-225a0f8e-ae62-43fa-889b-869265dacf7a/',
+    href: 'https://www.udemy.com/certificate/UC-225a0f8e-ae62-43fa-889b-869265dacf7a/',
   },
   {
     title: 'Prometheus | The Complete Hands-On for Monitoring & Alerting (2025)',
     subtitle: 'Coursera',
-    href: 'ude.my/UC-e6bbaf7a-6390-4a8b-afbe-30103b34a0c7',
+    href: 'https://www.udemy.com/certificate/UC-e6bbaf7a-6390-4a8b-afbe-30103b34a0c7',
   },
 {
     title: 'Python for Data Science, AI & Development (2024)',
@@ -36,16 +36,16 @@ export const certifications: AchievementItem[] = [
   {
     title: 'Windows Server 2019 Administration (2023)',
     subtitle: 'Udemy',
-    href: 'ude.my/UC-9b723d2d-65f2-4b51-9178-d395096b1c06/',
+    href: 'https://www.udemy.com/certificate/UC-9b723d2d-65f2-4b51-9178-d395096b1c06/',
   },
 {
     title: 'Master DevOps Monitoring with Prometheus (2023)',
     subtitle: 'Udemy',
-    href: 'ude.my/UC-547ac08d-b139-48ce-8071-60d3b7e3c36c/',
+    href: 'https://www.udemy.com/certificate/UC-547ac08d-b139-48ce-8071-60d3b7e3c36c/',
   },
   {
     title: 'Deep Learning: Convolutional Neural Networks in Python (2023)',
     subtitle: 'Udemy',
-    href: 'ude.my/UC-f6932b8e-5283-4de2-a847-c07f4a7705d0/',
+    href: 'https://www.udemy.com/certificate/UC-f6932b8e-5283-4de2-a847-c07f4a7705d0/',
   },
 ]
