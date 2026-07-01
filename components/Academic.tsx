@@ -51,8 +51,8 @@ export default function Academic() {
         }`}
       >
         <ul className="space-y-2">
-          {activeItems.map((item) => (
-            <li key={item.title} className="text-xs text-zinc-300 leading-relaxed">
+          {activeItems.map((item, index) => (
+            <li key={`${item.title}-${item.subtitle}-${index}`} className="text-xs text-zinc-300 leading-relaxed">
               {item.href ? (
                 <a
                   href={item.href}
