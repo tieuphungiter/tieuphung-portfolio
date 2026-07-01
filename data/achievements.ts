@@ -20,7 +20,7 @@ export const certifications: AchievementItem[] = [
   },
   {
     title: 'Prometheus | The Complete Hands-On for Monitoring & Alerting (2025)',
-    subtitle: 'Coursera',
+    subtitle: 'Udemy',
     href: 'https://www.udemy.com/certificate/UC-e6bbaf7a-6390-4a8b-afbe-30103b34a0c7',
   },
 {
